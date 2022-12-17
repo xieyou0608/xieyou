@@ -1,8 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
+  const magic = router.pathname === "/magician";
+  const changePage = () => {
+    if (!magic) {
+      router.push("/magician");
+    } else {
+      router.push("/");
+    }
+  };
+
   const [navColor, setNavColor] = useState("");
   const scrollListener = () => {
     if (window.scrollY > 10) {
@@ -38,6 +49,9 @@ const Navbar = () => {
           <Link href="#skills" scroll={false}>
             Skills
           </Link>
+        </li>
+        <li>
+          <button onClick={changePage}>{magic ? "Developer" : "Magic"}</button>
         </li>
       </ul>
     </nav>
