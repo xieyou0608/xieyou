@@ -46,3 +46,24 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   } */
 }
+
+@layer components {
+  #timeAnimation #year2016{
+    @apply animate-[fadeIn_3s_linear_forwards_0s]
+  }
+  #timeAnimation #year2017{
+    @apply animate-[fadeIn_3s_linear_forwards_1s]
+  }
+  #timeAnimation #year2019{
+    @apply animate-[fadeIn_3s_linear_forwards_2s]
+  }
+  #timeAnimation #year2020{
+    @apply animate-[fadeIn_3s_linear_forwards_3s]
+  }
+  #timeAnimation #year2021{
+    @apply animate-[fadeIn_3s_linear_forwards_4s]
+  }
+  #timeAnimation #year2022{
+    @apply animate-[fadeIn_3s_linear_forwards_5s]
+  }
+}

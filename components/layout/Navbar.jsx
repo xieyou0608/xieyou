@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0  py-3 pl-5 pr-16 z-50 flex justify-between items-center opacity-70 duration-500 ${navColor}`}
+      className={`fixed top-0 w-full py-3 pl-5 pr-16 z-50 flex justify-between items-center opacity-70 duration-500 ${navColor}`}
     >
       <header>
         <Image src="/assets/logo.png" alt="" width={50} height={50} />

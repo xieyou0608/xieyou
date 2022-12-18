@@ -1,7 +1,10 @@
 import Head from "next/head";
-import Intro from "../components/Intro";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
+
+import Landing from "../components/magician/Landing";
+import AboutMagic from "../components/magician/AboutMagic";
+import TimeLine from "../components/magician/TimeLine";
 
 const magician = ({ fadingOut, setFadingOut }) => {
   return (
@@ -15,9 +18,11 @@ const magician = ({ fadingOut, setFadingOut }) => {
 
       <Navbar />
       <header id="top" />
-      <section className="animate-curtain w-full fixed top-0 bg-green-600 z-50" />
-      <main className="flex flex-col items-center gap-y-10 my-5">
-        <Intro />
+      <section className="animate-curtain w-full fixed top-0 bg-black z-50" />
+      <main className="flex flex-col items-center">
+        <Landing />
+        <AboutMagic />
+        <TimeLine />
       </main>
       <Footer />
     </>
