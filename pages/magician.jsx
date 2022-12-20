@@ -5,6 +5,9 @@ import Footer from "../components/layout/Footer";
 import Landing from "../components/magician/Landing";
 import AboutMagic from "../components/magician/AboutMagic";
 import TimeLine from "../components/magician/TimeLine";
+import StagePhotos from "../components/magician/StagePhotos";
+import MagicSkills from "../components/magician/MagicSkills";
+import ArtWorks from "../components/magician/ArtWorks";
 
 const magician = ({ fadingOut, setFadingOut }) => {
   return (
@@ -23,6 +26,9 @@ const magician = ({ fadingOut, setFadingOut }) => {
         <Landing />
         <AboutMagic />
         <TimeLine />
+        <MagicSkills />
+        <StagePhotos />
+        <ArtWorks />
       </main>
       <Footer />
     </>
