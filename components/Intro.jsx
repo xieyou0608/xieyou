@@ -25,7 +25,7 @@ const Intro = () => {
           alt="個人照"
           width={500}
           height={500}
-          className={`w-[50vmin] rounded-full animate-fadeIn z-0`}
+          className={`w-[50vmin] rounded-full animate-fadeIn1 z-0`}
           priority
           as="style"
         />

@@ -18,7 +18,7 @@ const Portfolios = () => {
   return (
     <section id="portfolios" className="w-full flex flex-col items-center">
       <h3 className="mb-3">Portfolios</h3>
-      <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 bg-gray-100 p-5 rounded-3xl justify-items-center w-11/12 lg:w-4/5 ">
+      <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 bg-gray-300 p-5 rounded-3xl justify-items-center w-11/12 lg:w-4/5 ">
         {portfoliosList.map((work) => (
           <div
             key={work.title}

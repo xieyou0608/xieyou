@@ -47,11 +47,11 @@ const Skills = () => {
     >
       <h3>Skills</h3>
       {/* mobile only */}
-      <div className="w-11/12 rounded-3xl bg-gray-100 p-5 lg:hidden">
+      <div className="w-11/12 rounded-3xl bg-gray-300 p-5 lg:hidden">
         <SkillsRow skillsList={combinedList} />
       </div>
       {/* PC only */}
-      <div className="hidden lg:grid grid-cols-3 w-4/5 rounded-3xl bg-gray-100 p-5">
+      <div className="hidden lg:grid grid-cols-3 w-4/5 rounded-3xl bg-gray-300 p-5">
         <SkillsCol skillsList={frontendList} />
         <SkillsCol skillsList={backendList} />
         <SkillsCol skillsList={deployList} />

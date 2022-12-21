@@ -35,7 +35,10 @@ module.exports = {
         },
       },
       animation: {
-        fadeIn: "fadeIn 2s ease-out forwards",
+        fadeIn1: "fadeIn 1s ease-out forwards",
+        fadeIn2: "fadeIn 2s ease-out forwards",
+        fadeOut1: "fadeOut 1s ease-out forwards",
+        fadeOut2: "fadeOut 2s ease-out forwards",
         enlarge: "enlarge 2s ease-out forwards",
         curtain: "curtain 2s ease-out forwards",
       },

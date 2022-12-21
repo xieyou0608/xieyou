@@ -37,11 +37,10 @@ const StagePhotos = () => {
   };
 
   return (
-    <section className="w-4/5 h-[80vh]  bg-black flex justify-start overflow-hidden relative">
+    <section className="w-4/5 h-[30vh] md:h-[80vh]  bg-black flex justify-start overflow-hidden relative">
       {imgList.map((imgSrc, index) => (
-        // <div className="w-full h-full flex-shrink-0 relative">
         <Image
-          key={imgSrc}
+          key={index}
           src={imgSrc}
           alt="舞台照片"
           fill
@@ -49,7 +48,6 @@ const StagePhotos = () => {
           sizes="100vw, (max-width:768px) 80vw"
           className={`${index === number ? "" : "opacity-0"} duration-500`}
         />
-        // </div>
       ))}
 
       <button
@@ -65,8 +63,8 @@ const StagePhotos = () => {
         <FaAngleRight className="text-white text-3xl opacity-50" />
       </button>
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex gap-x-2">
-        {imgList.map((img, index) => (
-          <button onClick={() => choosePhoto(index)}>
+        {imgList.map((_, index) => (
+          <button key={index} onClick={() => choosePhoto(index)}>
             <div
               className={`w-7 h-1 bg-white duration-500 ${
                 index === number ? "opacity-100" : "opacity-50"
