@@ -5,10 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // fontFamily: {
-    //   sans: ["Graphik", "sans-serif"],
-    //   serif: ["Merriweather", "serif"],
-    // },
+    fontFamily: {
+      notoSansTC: ["Noto Sans TC", "sans-serif"],
+      notoSerifTC: ["Noto Serif TC", "serif"],
+      shadows: ["Shadows Into Light", "cursive"],
+    },
     extend: {
       spacing: {
         "8xl": "96rem",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SocialLinks from "./layout/SocialLinks";
+import SocialLinks from "../layout/SocialLinks";
 import { GiButterflyFlower } from "react-icons/gi";
 import { useRouter } from "next/router";
 
@@ -36,8 +36,8 @@ const Intro = () => {
           <GiButterflyFlower className="w-[5vmin] h-[5vmin] text-pink-300 group-hover:text-white" />
         </div>
       </div>
-      <h1 className="font-[Raleway]">Yu-Chun Hsieh</h1>
-      <h3>{magic ? "magician" : "Web Developer"}</h3>
+      <h2>Yu-Chun Hsieh</h2>
+      <h4>{magic ? "magician" : "Web Developer"}</h4>
       <SocialLinks />
     </section>
   );

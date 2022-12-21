@@ -15,7 +15,7 @@ import leaflet2 from "../../public/assets/art-works/黑白傳單2.jpg";
 
 const ArtWorks = () => {
   return (
-    <section className="w-4/5">
+    <section className="w-4/5 m-10">
       <h2 className="text-center">Other Works</h2>
 
       <div className="bg-black flex flex-col gap-y-2 p-4 md:p-8">

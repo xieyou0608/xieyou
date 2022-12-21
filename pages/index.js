@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Navbar from "../components/layout/Navbar";
-import Intro from "../components/Intro";
+import Intro from "../components/developer/Intro";
 import Portfolios from "../components/developer/Portfolios";
 import Skills from "../components/developer/Skills";
 import Footer from "../components/layout/Footer";

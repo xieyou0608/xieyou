@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Noto+Serif+TC:wght@300;400;500;600;700;900&family=Shadows+Into+Light&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
   scroll-behavior: smooth;
-  /* font-family: "Raleway", sans-serif; */
 }
 
 @layer base {
@@ -16,6 +17,10 @@ html {
     @apply flex flex-col items-center
   } */
 
+  html {
+     @apply font-notoSansTC
+  }
+
   h1,
   h2,
   h3,
@@ -23,6 +28,7 @@ html {
   h5,
   h6 {
     @apply font-bold;
+    @apply font-notoSerifTC
   }
 
   h1 {

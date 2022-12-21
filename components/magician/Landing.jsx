@@ -16,13 +16,15 @@ const Landing = () => {
           />
           <div className="absolute text-white bottom-1/4 lg:bottom-1/2 left-1/2 lg:left-1/2">
             <h3>Yu-Chun Hsieh</h3>
-            <h3>魔術|舞台展演</h3>
+            <h3 className="font-normal">魔術|舞台展演</h3>
           </div>
         </div>
       </section>
-      <section className="w-full h-[80vh] bg-gradient-to-b from-purple-900 to-black font-['Shadows_Into_Light'] flex flex-col items-center justify-center">
-        <h3 className="relative md:right-[20vw]">I don't play magic...</h3>
-        <h3 className="relative md:top-16  md:left-[10vw]">
+      <section className="w-full h-[80vh] bg-gradient-to-b from-purple-800 to-black text-white flex flex-col items-center justify-center">
+        <h3 className="relative md:right-[20vw] font-shadows font-normal">
+          I don't play magic...
+        </h3>
+        <h3 className="relative md:top-16  md:left-[10vw] font-shadows font-normal">
           because it happens in your heart!
         </h3>
       </section>

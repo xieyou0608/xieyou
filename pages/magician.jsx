@@ -13,7 +13,7 @@ const magician = ({ fadingOut, setFadingOut }) => {
   return (
     <>
       <Head>
-        <title>Magician YJ</title>
+        <title>YJ</title>
         <meta name="description" content="謝侑均的個人網站及作品集" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

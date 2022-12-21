@@ -57,7 +57,7 @@ const Timeline = () => {
       id="timeline"
       className="w-full bg-gradient-to-b from-black to-purple-800 "
     >
-      <h3 className="text-center text-white my-3">Where magic happens...</h3>
+      <h3 className="text-center text-white my-3">Where magic happened...</h3>
       <div
         id={animation}
         className="relative w-full flex flex-col items-center"
