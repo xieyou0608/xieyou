@@ -22,7 +22,7 @@ const Landing = () => {
       </section>
       <section className="w-full h-[80vh] bg-gradient-to-b from-purple-800 to-black text-white flex flex-col items-center justify-center">
         <h3 className="relative md:right-[20vw] font-shadows font-normal">
-          I don't play magic...
+          I don&#39;t play magic...
         </h3>
         <h3 className="relative md:top-16  md:left-[10vw] font-shadows font-normal">
           because it happens in your heart!
