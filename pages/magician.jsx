@@ -4,7 +4,7 @@ import Footer from "../components/layout/Footer";
 
 import Landing from "../components/magician/Landing";
 import AboutMagic from "../components/magician/AboutMagic";
-import TimeLine from "../components/magician/TimeLine";
+import TimeLine from "../components/magician/Timeline";
 import StagePhotos from "../components/magician/StagePhotos";
 import MagicSkills from "../components/magician/MagicSkills";
 import ArtWorks from "../components/magician/ArtWorks";
