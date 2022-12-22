@@ -16,9 +16,9 @@ import leaflet2 from "../../public/assets/art-works/黑白傳單2.jpg";
 const ArtWorks = () => {
   return (
     <section className="w-4/5 m-10">
-      <h2 className="text-center">Other Works</h2>
+      <h2 className="text-center mb-5">Other Works</h2>
 
-      <div className="bg-black flex flex-col gap-y-2 p-4 md:p-8">
+      <div className="bg-black flex flex-col gap-y-2 p-4 md:p-8 [&_img]:duration-500 [&_img:hover]:scale-110 ">
         <div className="w-full flex items-start justify-center gap-x-[2%] ">
           <div className="w-[37%] flex flex-col gap-y-2 md:gap-y-4">
             <Image src={ticket1} alt="魔夜票正面" />

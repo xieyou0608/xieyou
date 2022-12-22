@@ -41,7 +41,13 @@ const Navbar = () => {
         className={`fixed top-0 w-full py-3 pl-5 pr-16 z-50 hidden md:flex justify-between items-center opacity-70 duration-500 ${navColor}`}
       >
         <header>
-          <Image src="/assets/logo1.png" alt="" width={50} height={50} />
+          <Image
+            src="/assets/logo.png"
+            alt=""
+            width={50}
+            height={50}
+            className="rounded-full opacity-0"
+          />
         </header>
         <ul className="flex gap-x-6">
           <li>
@@ -83,7 +89,7 @@ const Navbar = () => {
             </>
           )}
           <li>
-            <button onClick={changePage}>
+            <button onClick={changePage} className="text-pink-900 font-bold">
               {magic ? "Developer" : "Magic"}
             </button>
           </li>
@@ -145,7 +151,10 @@ const Navbar = () => {
             </>
           )}
           <li>
-            <button onClick={changePage} className="w-full h-full p-1">
+            <button
+              onClick={changePage}
+              className="w-full h-full p-1 text-pink-900 font-bold"
+            >
               {magic ? "Developer" : "Magic"}
             </button>
           </li>

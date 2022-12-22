@@ -14,7 +14,7 @@ const Landing = () => {
             sizes="100vw"
             as="style"
           />
-          <div className="absolute text-white bottom-1/4 lg:bottom-1/2 left-1/2 lg:left-1/2">
+          <div className="absolute text-white bottom-[20%] left-1/3 lg:bottom-1/3  lg:left-[55%]">
             <h3>Yu-Chun Hsieh</h3>
             <h3 className="font-normal">魔術|舞台展演</h3>
           </div>
