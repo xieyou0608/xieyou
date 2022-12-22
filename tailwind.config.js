@@ -26,13 +26,13 @@ module.exports = {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         },
-        enlarge: {
-          "0%": { width: 0, height: 0 },
-          "100%": { width: "100vw", height: "100vw" },
-        },
-        curtain: {
+        curtainUp: {
           "0%": { height: "100%" },
           "100%": { height: "0%" },
+        },
+        curtainDown: {
+          "0%": { height: "0%" },
+          "100%": { height: "100%" },
         },
       },
       animation: {
@@ -41,7 +41,8 @@ module.exports = {
         fadeOut1: "fadeOut 1s ease-out forwards",
         fadeOut2: "fadeOut 2s ease-out forwards",
         enlarge: "enlarge 2s ease-out forwards",
-        curtain: "curtain 2s ease-out forwards",
+        curtainUp: "curtainUp 2s ease-out forwards",
+        curtainDown: "curtainDown 2s ease-out forwards",
       },
     },
   },

@@ -21,7 +21,7 @@ const magician = ({ fadingOut, setFadingOut }) => {
 
       <Navbar />
       <header id="top" />
-      <section className="animate-curtain w-full fixed top-0 bg-black z-50" />
+      <section className="animate-curtainUp w-full fixed top-0 bg-black z-50" />
       <main className="flex flex-col items-center">
         <Landing />
         <AboutMagic />

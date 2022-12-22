@@ -37,7 +37,10 @@ const StagePhotos = () => {
   };
 
   return (
-    <section className="w-4/5 h-[30vh] md:h-[80vh]  bg-black flex justify-start overflow-hidden relative">
+    <section
+      id="stagePhotos"
+      className="w-4/5 h-[30vh] md:h-[80vh]  bg-black flex justify-start overflow-hidden relative"
+    >
       {imgList.map((imgSrc, index) => (
         <Image
           key={index}

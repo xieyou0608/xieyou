@@ -20,7 +20,7 @@ export default function Home() {
 
       <Navbar />
       <header id="top" />
-      <section className="animate-curtain w-full fixed bottom-0 bg-blue-500 z-50" />
+      <section className="animate-curtainUp w-full fixed bottom-0 bg-blue-500 z-50" />
       <main className="flex flex-col items-center gap-y-10 my-5">
         <Intro />
         <Portfolios />
