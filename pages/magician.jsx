@@ -9,7 +9,7 @@ import StagePhotos from "../components/magician/StagePhotos";
 import MagicSkills from "../components/magician/MagicSkills";
 import ArtWorks from "../components/magician/ArtWorks";
 
-const magician = ({ fadingOut, setFadingOut }) => {
+const magician = () => {
   return (
     <>
       <Head>
