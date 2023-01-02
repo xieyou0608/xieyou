@@ -1,26 +1,32 @@
-export const portfoliosList = [
+export const portfolioList = [
   {
-    imgSrc: "/assets/portfolios/ntumagic.jpg",
+    imgSrc: "/assets/portfolio/ntumagic.jpg",
     title: "台大魔夜劃位系統",
     ghLink: "https://github.com/xieyou0608/ntumagic",
     demoLink: "https://www.ntumagic.club/",
   },
   {
-    imgSrc: "/assets/portfolios/lapsee.jpg",
+    imgSrc: "/assets/portfolio/lapsee.jpg",
     title: "媒體小鎮",
     ghLink: "https://github.com/xieyou0608/lapsee-memory-game",
     demoLink: "https://lapsee-game.web.app/",
   },
   {
-    imgSrc: "/assets/portfolios/arts.jpg",
+    imgSrc: "/assets/portfolio/arts.jpg",
     title: "個人網站",
     ghLink: "https://github.com/xieyou0608/xieyou",
     demoLink: "https://xieyou.me/magician",
   },
   {
-    imgSrc: "/assets/portfolios/mental-flow.jpg",
+    imgSrc: "/assets/portfolio/mental-flow.jpg",
     title: "專注工具",
     ghLink: "https://github.com/xieyou0608/mental-flow",
     demoLink: "https://mental-flow.vercel.app/",
+  },
+  {
+    imgSrc: "/assets/portfolio/taiwan-travel.jpg",
+    title: "旅遊景點",
+    ghLink: "https://github.com/xieyou0608/taiwan-travel",
+    demoLink: "https://taiwan-travel-chi.vercel.app/",
   },
 ];

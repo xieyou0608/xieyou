@@ -1,4 +1,4 @@
-import { portfoliosList } from "./portfoliosData";
+import { portfolioList } from "./portfolioData";
 import Image from "next/image";
 
 const ChipLink = (props) => {
@@ -14,12 +14,12 @@ const ChipLink = (props) => {
   );
 };
 
-const Portfolios = () => {
+const Portfolio = () => {
   return (
-    <section id="portfolios" className="w-full flex flex-col items-center">
-      <h3 className="mb-3">Portfolios</h3>
+    <section id="portfolio" className="w-full flex flex-col items-center">
+      <h3 className="mb-3">Portfolio</h3>
       <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 bg-gray-300 p-5 rounded-3xl justify-items-center w-11/12 lg:w-4/5 ">
-        {portfoliosList.map((work) => (
+        {portfolioList.map((work) => (
           <div
             key={work.title}
             className="relative group rounded-xl aspect-[5/3] w-60 md:w-70 lg:w-80 shadow-xl shadow-gray-500 overflow-hidden"
@@ -45,4 +45,4 @@ const Portfolios = () => {
   );
 };
 
-export default Portfolios;
+export default Portfolio;

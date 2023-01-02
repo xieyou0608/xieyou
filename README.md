@@ -4,7 +4,7 @@
 &nbsp;
 動畫的部分為了練習，加上不想引入太多第三方套件，全部都是用 Tailwind 手刻，未來可以記錄幾個動畫效果的做法(換頁的升降幕、作品集 hover 字體上升、Timeline接連出現效果、輪播圖等等)
 &nbsp;
-### Getting Start
+### Getting Started
 ```bash
 yarn install
 # and

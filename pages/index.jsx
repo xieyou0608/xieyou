@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/layout/Navbar";
 import Intro from "../components/developer/Intro";
-import Portfolios from "../components/developer/Portfolios";
+import Portfolio from "../components/developer/Portfolio";
 import Skills from "../components/developer/Skills";
 import Footer from "../components/layout/Footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
       <section className="animate-curtainUp w-full fixed bottom-0 bg-blue-500 z-50" />
       <main className="flex flex-col items-center gap-y-10 my-5">
         <Intro />
-        <Portfolios />
+        <Portfolio />
         <Skills />
       </main>
       <Footer />
