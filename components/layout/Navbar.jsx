@@ -58,8 +58,8 @@ const Navbar = () => {
           {!magic && (
             <>
               <li>
-                <Link href="#portfolios" scroll={false}>
-                  Portfolios
+                <Link href="#portfolio" scroll={false}>
+                  Portfolio
                 </Link>
               </li>
               <li>
