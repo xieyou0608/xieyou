@@ -27,6 +27,12 @@ export const portfolioList = [
     imgSrc: "/assets/portfolio/taiwan-travel.jpg",
     title: "旅遊景點",
     ghLink: "https://github.com/xieyou0608/taiwan-travel",
-    demoLink: "https://taiwan-travel-chi.vercel.app/",
+    demoLink: "https://taiwan-travel-xieyou0608.vercel.app/",
+  },
+  {
+    imgSrc: "/assets/portfolio/e-commerce.jpg",
+    title: "電商練習",
+    ghLink: "https://github.com/xieyou0608/e-commerce",
+    demoLink: "https://e-commerce-xieyou0608.vercel.app/",
   },
 ];
