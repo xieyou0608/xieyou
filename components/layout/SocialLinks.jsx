@@ -42,7 +42,7 @@ const SocialLinks = ({ isFooter }) => {
         <AiFillLinkedin className={isFooter ? "" : "text-blue-800"} />
       </IconLink>
 
-      <IconLink href="https://docs.google.com/document/d/1LuGgbbBXte-ZW7YSt_dgEJ92pxIiCFlYSPOu_nvaOZw/edit?usp=sharing">
+      <IconLink href="https://drive.google.com/file/d/1JKzmCpxnTPY8Y5pUryIEey0tC7z6ydmQ/view?usp=sharing">
         <IoDocumentTextSharp />
       </IconLink>
     </div>
